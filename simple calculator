@@ -1,0 +1,19 @@
+#arithmetic
+a = int(input('Enter 1 number'))
+b = int(input('Enter 2 number '))
+operation = input('Select operation ')
+c = a + b
+if operation == '+':
+    c = a + b
+    print(c)    
+elif operation == '-':
+    c = a - b
+    print(c)
+elif operation == '*':
+    c = a * b
+    print(c)
+elif operation == '/':
+    c = a / b
+    print(c)
+else :
+    print(' "Unknown operation"')
